@@ -29,14 +29,11 @@ public class ReverseIndexReducer extends Reducer<Text,Text,Text,Text> {
 			locations = String.join("|", locations, str);	 
 		}
 		
-		//strSet.clear();
 		
 		result.set(locations);
 	 
-		//result.set(new Text("test"));
 		context.write(key, result);
 		
-		//System.gc();
 	}
 
 }	
