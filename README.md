@@ -1,5 +1,5 @@
 
-#Building inverted index using Hadoop MapReduce
+# Building inverted index using Hadoop MapReduce
 
 This project is explained in details at below address:
 
